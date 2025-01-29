@@ -1,0 +1,1704 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SNAPSHOT profile="Complexity metrics" timestamp="sam., 4 janv. 2025 00:27:58 CET" version="1.12">
+  <METRIC class_name="com.sixrr.stockmetrics.methodMetrics.CognitiveComplexityMetric">
+    <VALUE measured="Controllers.BanqueController.afficherToutBanquier()" value="0.0"/>
+    <VALUE measured="Controllers.BanqueController.afficherToutClient()" value="0.0"/>
+    <VALUE measured="Controllers.BanqueController.existanceCompte(int)" value="0.0"/>
+    <VALUE measured="Controllers.BanqueController.getAllComptesBancaires()" value="0.0"/>
+    <VALUE measured="Controllers.BanqueController.getCompteBancaire(int)" value="3.0"/>
+    <VALUE measured="Controllers.BanqueController.getCompteBancaireByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Controllers.BanqueController.infosBanque()" value="0.0"/>
+    <VALUE measured="Controllers.BanqueController.infossBanque()" value="0.0"/>
+    <VALUE measured="Controllers.BanqueController.nombreBanquiers()" value="0.0"/>
+    <VALUE measured="Controllers.BanqueController.nombreClients()" value="0.0"/>
+    <VALUE measured="Controllers.BanqueController.supprimerClient(int)" value="3.0"/>
+    <VALUE measured="Controllers.BanqueController.transfert(double, CompteBancaire, CompteBancaire)" value="0.0"/>
+    <VALUE measured="Controllers.BanquierController.ajouterBanquier(String, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Controllers.BanquierController.getAllBanquier()" value="0.0"/>
+    <VALUE measured="Controllers.BanquierController.getBanquier(int)" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.loginBanquier(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierAdresseBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierBanquier(String, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierCINBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierDateNaisBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierMailBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierNomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierPasswordBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierPrenomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierSalaireBanquier(double, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierTelBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierUsernameBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.supprimerBanquier(int)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.ajouterClient(Client)" value="0.0"/>
+    <VALUE measured="Controllers.ClientController.ajouterClient(String, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Controllers.ClientController.getAllClient()" value="0.0"/>
+    <VALUE measured="Controllers.ClientController.getClient(int)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.loginClient(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.ClientController.modifierAdresseClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierCINClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierClient(String, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Controllers.ClientController.modifierDateNaisClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierMailClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierNomClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierPasswordClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierPrenomClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierTelClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierUsernameClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.preter(double, int)" value="2.0"/>
+    <VALUE measured="Controllers.ClientController.rembourser(double, int)" value="2.0"/>
+    <VALUE measured="Controllers.ClientController.supprimerClient(int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.creerCompteCourant(int, TypeCompte, String)" value="0.0"/>
+    <VALUE measured="Controllers.CompteCourantController.depotArgent(double, int)" value="0.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getAllCompteCourant()" value="0.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getCompteCourant(int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getCompteCourantByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.modifierSolde(double, int)" value="0.0"/>
+    <VALUE measured="Controllers.CompteCourantController.retrait(double, int)" value="0.0"/>
+    <VALUE measured="Controllers.CompteCourantController.supprimerCompteCourant(int)" value="0.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.creerCompteEpargne(int, int, TypeCompte, String)" value="0.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.depotArgent(double, int)" value="0.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getAllCompteEpargne()" value="0.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getCompteEpargne(int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getCompteEpargneByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.modifierSolde(double, int)" value="0.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.retrait(double, int)" value="0.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.supprimerCompteEpargne(int)" value="0.0"/>
+    <VALUE measured="Controllers.DirecteurController.getDirecteur(int)" value="1.0"/>
+    <VALUE measured="Controllers.DirecteurController.loginDirecteur(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierAdresseDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierCINDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierDateNaisDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierDirecteur(String, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierMailDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierNomDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierPasswordDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierPrenomDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierTelDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierUsernameDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.TransactionController.ajouterTransaction(Transaction)" value="1.0"/>
+    <VALUE measured="Controllers.TransactionController.getAllTransaction()" value="0.0"/>
+    <VALUE measured="Controllers.TransactionController.getTransactionByIdCompte(int)" value="0.0"/>
+    <VALUE measured="Controllers.TransactionController.supprimerTransactions(int)" value="4.0"/>
+    <VALUE measured="Interfaces.IBanque.infosBanque()" value="0.0"/>
+    <VALUE measured="Interfaces.IBanque.nombreBanquiers()" value="0.0"/>
+    <VALUE measured="Interfaces.IBanque.nombreClients()" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.ajouterBanquier(Banquier)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.getAllBanquier()" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.getBanquier(int)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.loginBanquier(String, String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierAdresseBanquier(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierBanquier(double, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierCINBanquier(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierMailBanquier(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierNomBanquier(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierPasswordBanquier(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierPrenomBanquier(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierUsernameBanquier(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IBanquier.supprimerBanquier(int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.ajouterClient(Client)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.getAllClient()" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.getClient(int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.loginClient(String, String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.modifierAdresseClient(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.modifierCINClient(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.modifierClient(double, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.modifierMailClient(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.modifierNomClient(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.modifierPasswordClient(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.modifierPrenomClient(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.modifierUsernameClient(String, int)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.preter(double)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.rembourser(double)" value="0.0"/>
+    <VALUE measured="Interfaces.IClient.supprimerClient(int)" value="0.0"/>
+    <VALUE measured="Interfaces.IDirecteur.loginDirecteur(String, String)" value="0.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierAdresseDirecteur(String)" value="0.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierCINDirecteur(String)" value="0.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierMailDirecteur(String)" value="0.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierNomDirecteur(String)" value="0.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierPasswordDirecteur(String)" value="0.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierPrenomDirecteur(String)" value="0.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierUsernameDirecteur(String)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.afficherToutBanquier()" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.afficherToutClient()" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.infosBanque()" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.nombreBanquiers()" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.nombreClients()" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.transfert(double, CompteBancaire, CompteBancaire)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.ajouterBanquier(Banquier)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.getAllBanquier()" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.getBanquier(int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.loginBanquier(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierAdresseBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierCINBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierDateNaisBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierMailBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierNomBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierPasswordBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierPrenomBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierSalaireBanquier(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierTelBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierUsernameBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.supprimerBanquier(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.ajouterClient(Client)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Client.getAllClient()" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Client.getClient(int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Client.loginClient(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierAdresseClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierCINClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierDateNaisClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierMailClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierNomClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierPasswordClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierPrenomClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierTelClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierUsernameClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.preter(double, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.rembourser(double, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Client.supprimerClient(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.creerCompteCourant(CompteCourant)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.depotArgent(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getAllCompteCourant()" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getCompteCourant(int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getCompteCourantByIdCompte(int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.modifierSolde(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.retrait(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.supprimerCompteCourant(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.creerCompteEpargne(CompteEpargne)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.depotArgent(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getAllCompteEpargne()" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getCompteEpargne(int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getCompteEpargneByIdCompte(int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.modifierSolde(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.retrait(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.supprimerCompteEpargne(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.getDirecteur(int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.loginDirecteur(String, String, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierAdresseDirecteur(String, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierCINDirecteur(String, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierDateNaisDirecteur(String, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierMailDirecteur(String, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierNomDirecteur(String, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierPasswordDirecteur(String, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierPrenomDirecteur(String, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierTelDirecteur(String, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierUsernameDirecteur(String, int)" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction.getAllTransaction()" value="0.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction.getTransactionByIdCompte(int)" value="0.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.afficherToutBanquier()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.afficherToutClient()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.infosBanque()" value="0.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.nombreBanquiers()" value="0.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.nombreClients()" value="0.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.transfert(double, CompteBancaire, CompteBancaire)" value="5.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.ajouterBanquier(Banquier)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.getAllBanquier()" value="0.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.getBanquier(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.loginBanquier(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierAdresseBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierCINBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierDateNaisBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierMailBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierNomBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierPasswordBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierPrenomBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierSalaireBanquier(double, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierUsernameBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifiertelBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.supprimerBanquier(int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.ajouterClient(Client)" value="8.0"/>
+    <VALUE measured="Models.dals.DAL_Client.getAllClient()" value="0.0"/>
+    <VALUE measured="Models.dals.DAL_Client.getClient(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Client.loginClient(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierAdresseClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierCINClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierDateNaisClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierMailClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierNomClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierPasswordClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierPrenomClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierUsernameClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifiertelClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.preter(double, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.rembourser(double, int)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Client.supprimerClient(int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.creerCompteCourant(CompteCourant)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.depotArgent(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getAllCompteCourant()" value="0.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getCompteCourant(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getCompteCourantByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.modifierSolde(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.retrait(double, int)" value="7.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.supprimerCompteCourant(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.creerCompteEpargne(CompteEpargne)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.depotArgent(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getAllCompteEpargne()" value="0.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getCompteEpargne(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getCompteEpargneByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.modifierSolde(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.retrait(double, int)" value="7.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.supprimerCompteEpargne(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.getDirecteur(int)" value="0.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.loginDirecteur(String, String, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierAdresseDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierCINDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierDateNaisDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierMailDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierNomDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierPasswordDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierPrenomDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierUsernameDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifiertelDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Transaction.getAllTransaction()" value="0.0"/>
+    <VALUE measured="Models.dals.DAL_Transaction.getTransactionByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.entities.Banque.Banque()" value="0.0"/>
+    <VALUE measured="Models.entities.Banque.getAdresse()" value="0.0"/>
+    <VALUE measured="Models.entities.Banque.getNom()" value="0.0"/>
+    <VALUE measured="Models.entities.Banque.infos()" value="0.0"/>
+    <VALUE measured="Models.entities.Banque.setAdresse(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Banque.setNom(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Banquier.Banquier(String, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Models.entities.Banquier.Banquier(int, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Models.entities.Banquier.getPassword()" value="0.0"/>
+    <VALUE measured="Models.entities.Banquier.getUsername()" value="0.0"/>
+    <VALUE measured="Models.entities.Banquier.setPassword(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Banquier.setUsername(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Banquier.toString()" value="0.0"/>
+    <VALUE measured="Models.entities.Client.Client(String, String, String, String, String, String, String, ...)" value="5.0"/>
+    <VALUE measured="Models.entities.Client.Client(int, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Models.entities.Client.getId()" value="0.0"/>
+    <VALUE measured="Models.entities.Client.getPassword()" value="0.0"/>
+    <VALUE measured="Models.entities.Client.getSoldePret()" value="0.0"/>
+    <VALUE measured="Models.entities.Client.getUsername()" value="0.0"/>
+    <VALUE measured="Models.entities.Client.setId(int)" value="0.0"/>
+    <VALUE measured="Models.entities.Client.setPassword(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Client.setSoldePret(double)" value="0.0"/>
+    <VALUE measured="Models.entities.Client.setUsername(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Client.toString()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.CompteBancaire(int, TypeCompte)" value="13.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.CompteBancaire(int, int, TypeCompte)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getDatecreation()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getIdClient()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getIdCompte()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getSolde()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getType()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setIdClient(int)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setIdCompte(int)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setSolde(double)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setType(TypeCompte)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.toString()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteCourant.CompteCourant(int, String, TypeCompte)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteCourant.CompteCourant(int, int, double, String, TypeCompte)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteCourant.getDatecreation()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteCourant.getSolde()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteCourant.setDateCreation(String)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteCourant.setSolde(double)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteCourant.toString()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.CompteEpargne(int, int, TypeCompte, String)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.CompteEpargne(int, int, int, double, TypeCompte, String)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getDatecreation()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getDuree()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getSolde()" value="0.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setDateCreation(String)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setDuree(int)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setSolde(double)" value="0.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.toString()" value="0.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierBanquier(int)" value="3.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierClient(int)" value="3.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierCompte(int)" value="6.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierTransaction(int)" value="3.0"/>
+    <VALUE measured="Models.entities.Directeur.Directeur(String, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Models.entities.Directeur.Directeur(int, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Models.entities.Directeur.getPassword()" value="0.0"/>
+    <VALUE measured="Models.entities.Directeur.getUsername()" value="0.0"/>
+    <VALUE measured="Models.entities.Directeur.setPassword(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Directeur.setUsername(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Directeur.toString()" value="0.0"/>
+    <VALUE measured="Models.entities.Employe.Employe(String, String, String, String, String, String, String, ...)" value="5.0"/>
+    <VALUE measured="Models.entities.Employe.Employe(int, String, String, String, String, String, String, ...)" value="0.0"/>
+    <VALUE measured="Models.entities.Employe.getId()" value="0.0"/>
+    <VALUE measured="Models.entities.Employe.getSalaire()" value="0.0"/>
+    <VALUE measured="Models.entities.Employe.setSalaire(double)" value="0.0"/>
+    <VALUE measured="Models.entities.Employe.toString()" value="0.0"/>
+    <VALUE measured="Models.entities.GestionBase.close()" value="3.0"/>
+    <VALUE measured="Models.entities.GestionBase.connect()" value="1.0"/>
+    <VALUE measured="Models.entities.GestionBase.loadDataFromDataBase()" value="16.0"/>
+    <VALUE measured="Models.entities.GestionBase.updateDataBase()" value="27.0"/>
+    <VALUE measured="Models.entities.Personne.Personne(String, String, String, String, String, String, String)" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.getAdresse()" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.getCIN()" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.getDateNais()" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.getMail()" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.getNom()" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.getPrenom()" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.getTel()" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.setAdresse(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.setCIN(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.setDateNais(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.setMail(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.setNom(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.setPrenom(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.setTel(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Personne.toString()" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.Transaction(String, double, String, int)" value="5.0"/>
+    <VALUE measured="Models.entities.Transaction.Transaction(int, String, double, String, int)" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.afficherTransaction()" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.getDate()" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.getIdCompte()" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.getIdTransaction()" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.getMontant()" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.getType()" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.setDate(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.setMontant(double)" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.setType(String)" value="0.0"/>
+    <VALUE measured="Models.entities.Transaction.toString()" value="0.0"/>
+    <VALUE measured="TestConnection.main(String[])" value="1.0"/>
+    <VALUE measured="Views.AccueilPage.AccueilPage()" value="29.0"/>
+    <VALUE measured="Views.AccueilPage.createButton(String)" value="4.0"/>
+    <VALUE measured="Views.TableBanquiersView.TableBanquiersView(List&lt;Banquier>)" value="1.0"/>
+    <VALUE measured="Views.TableClientsView.TableClientsView(List&lt;Client>)" value="1.0"/>
+    <VALUE measured="Views.TableComptesView.TableComptesView(List&lt;CompteBancaire>)" value="1.0"/>
+    <VALUE measured="Views.TableTransactionView.TableTransactionView(List&lt;Transaction>)" value="3.0"/>
+    <VALUE measured="Views.ViewBanquier.ViewBanquier()" value="17.0"/>
+    <VALUE measured="Views.ViewBanquier.createButton(String)" value="0.0"/>
+    <VALUE measured="Views.ViewClient.ViewClient()" value="42.0"/>
+    <VALUE measured="Views.ViewClient.createButton(String)" value="0.0"/>
+    <VALUE measured="Views.ViewCompte.ViewCompte()" value="77.0"/>
+    <VALUE measured="Views.ViewCompte.createButton(String)" value="0.0"/>
+    <VALUE measured="Views.ViewDirecteur.ViewDirecteur()" value="8.0"/>
+    <VALUE measured="Views.ViewDirecteur.createButton(String)" value="0.0"/>
+    <VALUE measured="Views.ViewGererBanquier.ViewGererBanquier()" value="27.0"/>
+    <VALUE measured="Views.ViewGererBanquier.createButton(String)" value="0.0"/>
+    <VALUE measured="Views.ViewGererClient.ViewGererClient()" value="103.0"/>
+    <VALUE measured="Views.ViewGererClient.createButton(String)" value="0.0"/>
+    <VALUE measured="actionPerformed(ActionEvent)" value="5.0"/>
+    <VALUE measured="org.example.Main.main(String[])" value="0.0"/>
+    <VALUE measured="paintComponent(Graphics)" value="3.0"/>
+    <VALUE measured="utils.Session.clear()" value="0.0"/>
+    <VALUE measured="utils.Session.getUserId()" value="0.0"/>
+    <VALUE measured="utils.Session.isLoggedIn()" value="0.0"/>
+    <VALUE measured="utils.Session.setUserId(int)" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.methodMetrics.EssentialCyclomaticComplexityMetric">
+    <VALUE measured="Controllers.BanqueController.afficherToutBanquier()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.afficherToutClient()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.existanceCompte(int)" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.getAllComptesBancaires()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.getCompteBancaire(int)" value="3.0"/>
+    <VALUE measured="Controllers.BanqueController.getCompteBancaireByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Controllers.BanqueController.infosBanque()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.infossBanque()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.nombreClients()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.supprimerClient(int)" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.transfert(double, CompteBancaire, CompteBancaire)" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.ajouterBanquier(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.getBanquier(int)" value="2.0"/>
+    <VALUE measured="Controllers.BanquierController.loginBanquier(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierAdresseBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierBanquier(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierCINBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierDateNaisBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierMailBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierNomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierPasswordBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierPrenomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierSalaireBanquier(double, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierTelBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierUsernameBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.supprimerBanquier(int)" value="2.0"/>
+    <VALUE measured="Controllers.ClientController.ajouterClient(Client)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.ajouterClient(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.getAllClient()" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.getClient(int)" value="2.0"/>
+    <VALUE measured="Controllers.ClientController.loginClient(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.ClientController.modifierAdresseClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierCINClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierClient(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.modifierDateNaisClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierMailClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierNomClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierPasswordClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierPrenomClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierTelClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierUsernameClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.preter(double, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.rembourser(double, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.supprimerClient(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteCourantController.creerCompteCourant(int, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.depotArgent(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getAllCompteCourant()" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getCompteCourant(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getCompteCourantByIdCompte(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteCourantController.modifierSolde(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.retrait(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.supprimerCompteCourant(int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.creerCompteEpargne(int, int, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.depotArgent(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getAllCompteEpargne()" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getCompteEpargne(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getCompteEpargneByIdCompte(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.modifierSolde(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.retrait(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.supprimerCompteEpargne(int)" value="1.0"/>
+    <VALUE measured="Controllers.DirecteurController.getDirecteur(int)" value="2.0"/>
+    <VALUE measured="Controllers.DirecteurController.loginDirecteur(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierAdresseDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierCINDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierDateNaisDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierDirecteur(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierMailDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierNomDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierPasswordDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierPrenomDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierTelDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierUsernameDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.TransactionController.ajouterTransaction(Transaction)" value="1.0"/>
+    <VALUE measured="Controllers.TransactionController.getAllTransaction()" value="1.0"/>
+    <VALUE measured="Controllers.TransactionController.getTransactionByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Controllers.TransactionController.supprimerTransactions(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanque.infosBanque()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanque.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanque.nombreClients()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.ajouterBanquier(Banquier)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.getBanquier(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.loginBanquier(String, String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierAdresseBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierBanquier(double, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierCINBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierMailBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierNomBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierPasswordBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierPrenomBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierUsernameBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.supprimerBanquier(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.ajouterClient(Client)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.getAllClient()" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.getClient(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.loginClient(String, String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierAdresseClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierCINClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierClient(double, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierMailClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierNomClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierPasswordClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierPrenomClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierUsernameClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.preter(double)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.rembourser(double)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.supprimerClient(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.loginDirecteur(String, String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierAdresseDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierCINDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierMailDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierNomDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierPasswordDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierPrenomDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierUsernameDirecteur(String)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.afficherToutBanquier()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.afficherToutClient()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.infosBanque()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.nombreClients()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.transfert(double, CompteBancaire, CompteBancaire)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.ajouterBanquier(Banquier)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.getBanquier(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.loginBanquier(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierAdresseBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierCINBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierDateNaisBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierMailBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierNomBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierPasswordBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierPrenomBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierSalaireBanquier(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierTelBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierUsernameBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.supprimerBanquier(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.ajouterClient(Client)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.getAllClient()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Client.getClient(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Client.loginClient(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierAdresseClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierCINClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierDateNaisClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierMailClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierNomClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierPasswordClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierPrenomClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierTelClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierUsernameClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.preter(double, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.rembourser(double, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Client.supprimerClient(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.creerCompteCourant(CompteCourant)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.depotArgent(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getAllCompteCourant()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getCompteCourant(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getCompteCourantByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.modifierSolde(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.retrait(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.supprimerCompteCourant(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.creerCompteEpargne(CompteEpargne)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.depotArgent(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getAllCompteEpargne()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getCompteEpargne(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getCompteEpargneByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.modifierSolde(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.retrait(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.supprimerCompteEpargne(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.getDirecteur(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.loginDirecteur(String, String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierAdresseDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierCINDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierDateNaisDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierMailDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierNomDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierPasswordDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierPrenomDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierTelDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierUsernameDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction.getAllTransaction()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction.getTransactionByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.afficherToutBanquier()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.afficherToutClient()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.infosBanque()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.nombreClients()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.transfert(double, CompteBancaire, CompteBancaire)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.ajouterBanquier(Banquier)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.getBanquier(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.loginBanquier(String, String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierAdresseBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierCINBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierDateNaisBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierMailBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierNomBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierPasswordBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierPrenomBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierSalaireBanquier(double, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierUsernameBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifiertelBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.supprimerBanquier(int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.ajouterClient(Client)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Client.getAllClient()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.getClient(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Client.loginClient(String, String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierAdresseClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierCINClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierDateNaisClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierMailClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierNomClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierPasswordClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierPrenomClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierUsernameClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifiertelClient(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.preter(double, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.rembourser(double, int)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Client.supprimerClient(int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.creerCompteCourant(CompteCourant)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.depotArgent(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getAllCompteCourant()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getCompteCourant(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getCompteCourantByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.modifierSolde(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.retrait(double, int)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.supprimerCompteCourant(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.creerCompteEpargne(CompteEpargne)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.depotArgent(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getAllCompteEpargne()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getCompteEpargne(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getCompteEpargneByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.modifierSolde(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.retrait(double, int)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.supprimerCompteEpargne(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.getDirecteur(int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.loginDirecteur(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierAdresseDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierCINDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierDateNaisDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierMailDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierNomDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierPasswordDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierPrenomDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierUsernameDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifiertelDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Transaction.getAllTransaction()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Transaction.getTransactionByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.Banque()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.getAdresse()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.getNom()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.infos()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.setAdresse(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.setNom(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.Banquier(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.Banquier(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.getPassword()" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.getUsername()" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.setPassword(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.setUsername(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.Client(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.Client(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getId()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getPassword()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getSoldePret()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getUsername()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setId(int)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setPassword(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setSoldePret(double)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setUsername(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.CompteBancaire(int, TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.CompteBancaire(int, int, TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getDatecreation()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getIdClient()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getIdCompte()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getSolde()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getType()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setIdClient(int)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setSolde(double)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setType(TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.CompteCourant(int, String, TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.CompteCourant(int, int, double, String, TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.getDatecreation()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.getSolde()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.setDateCreation(String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.setSolde(double)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.CompteEpargne(int, int, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.CompteEpargne(int, int, int, double, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getDatecreation()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getDuree()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getSolde()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setDateCreation(String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setDuree(int)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setSolde(double)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierBanquier(int)" value="3.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierClient(int)" value="3.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierCompte(int)" value="5.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierTransaction(int)" value="3.0"/>
+    <VALUE measured="Models.entities.Directeur.Directeur(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.Directeur(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.getPassword()" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.getUsername()" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.setPassword(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.setUsername(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.Employe(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.Employe(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.getId()" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.getSalaire()" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.setSalaire(double)" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.GestionBase.close()" value="1.0"/>
+    <VALUE measured="Models.entities.GestionBase.connect()" value="1.0"/>
+    <VALUE measured="Models.entities.GestionBase.loadDataFromDataBase()" value="2.0"/>
+    <VALUE measured="Models.entities.GestionBase.updateDataBase()" value="4.0"/>
+    <VALUE measured="Models.entities.Personne.Personne(String, String, String, String, String, String, String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getAdresse()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getCIN()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getDateNais()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getMail()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getNom()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getPrenom()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getTel()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setAdresse(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setCIN(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setDateNais(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setMail(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setNom(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setPrenom(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setTel(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.Transaction(String, double, String, int)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.Transaction(int, String, double, String, int)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.afficherTransaction()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getDate()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getIdCompte()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getIdTransaction()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getMontant()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getType()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.setDate(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.setMontant(double)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.setType(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.toString()" value="1.0"/>
+    <VALUE measured="TestConnection.main(String[])" value="1.0"/>
+    <VALUE measured="Views.AccueilPage.AccueilPage()" value="1.0"/>
+    <VALUE measured="Views.AccueilPage.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.TableBanquiersView.TableBanquiersView(List&lt;Banquier>)" value="1.0"/>
+    <VALUE measured="Views.TableClientsView.TableClientsView(List&lt;Client>)" value="1.0"/>
+    <VALUE measured="Views.TableComptesView.TableComptesView(List&lt;CompteBancaire>)" value="1.0"/>
+    <VALUE measured="Views.TableTransactionView.TableTransactionView(List&lt;Transaction>)" value="1.0"/>
+    <VALUE measured="Views.ViewBanquier.ViewBanquier()" value="2.0"/>
+    <VALUE measured="Views.ViewBanquier.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewClient.ViewClient()" value="1.0"/>
+    <VALUE measured="Views.ViewClient.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewCompte.ViewCompte()" value="13.0"/>
+    <VALUE measured="Views.ViewCompte.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewDirecteur.ViewDirecteur()" value="1.0"/>
+    <VALUE measured="Views.ViewDirecteur.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewGererBanquier.ViewGererBanquier()" value="1.0"/>
+    <VALUE measured="Views.ViewGererBanquier.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewGererClient.ViewGererClient()" value="1.0"/>
+    <VALUE measured="Views.ViewGererClient.createButton(String)" value="1.0"/>
+    <VALUE measured="org.example.Main.main(String[])" value="1.0"/>
+    <VALUE measured="utils.Session.clear()" value="1.0"/>
+    <VALUE measured="utils.Session.getUserId()" value="1.0"/>
+    <VALUE measured="utils.Session.isLoggedIn()" value="1.0"/>
+    <VALUE measured="utils.Session.setUserId(int)" value="1.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.methodMetrics.DesignComplexityMetric">
+    <VALUE measured="Controllers.BanqueController.afficherToutBanquier()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.afficherToutClient()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.existanceCompte(int)" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.getAllComptesBancaires()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.getCompteBancaire(int)" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.getCompteBancaireByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.infosBanque()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.infossBanque()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.nombreClients()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.supprimerClient(int)" value="3.0"/>
+    <VALUE measured="Controllers.BanqueController.transfert(double, CompteBancaire, CompteBancaire)" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.ajouterBanquier(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.getBanquier(int)" value="2.0"/>
+    <VALUE measured="Controllers.BanquierController.loginBanquier(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierAdresseBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierBanquier(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierCINBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierDateNaisBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierMailBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierNomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierPasswordBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierPrenomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierSalaireBanquier(double, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierTelBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierUsernameBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.supprimerBanquier(int)" value="2.0"/>
+    <VALUE measured="Controllers.ClientController.ajouterClient(Client)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.ajouterClient(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.getAllClient()" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.getClient(int)" value="2.0"/>
+    <VALUE measured="Controllers.ClientController.loginClient(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.ClientController.modifierAdresseClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierCINClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierClient(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.modifierDateNaisClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierMailClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierNomClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierPasswordClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierPrenomClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierTelClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierUsernameClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.preter(double, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.rembourser(double, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.supprimerClient(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteCourantController.creerCompteCourant(int, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.depotArgent(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getAllCompteCourant()" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getCompteCourant(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getCompteCourantByIdCompte(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteCourantController.modifierSolde(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.retrait(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.supprimerCompteCourant(int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.creerCompteEpargne(int, int, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.depotArgent(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getAllCompteEpargne()" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getCompteEpargne(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getCompteEpargneByIdCompte(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.modifierSolde(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.retrait(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.supprimerCompteEpargne(int)" value="1.0"/>
+    <VALUE measured="Controllers.DirecteurController.getDirecteur(int)" value="2.0"/>
+    <VALUE measured="Controllers.DirecteurController.loginDirecteur(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierAdresseDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierCINDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierDateNaisDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierDirecteur(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierMailDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierNomDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierPasswordDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierPrenomDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierTelDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierUsernameDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.TransactionController.ajouterTransaction(Transaction)" value="2.0"/>
+    <VALUE measured="Controllers.TransactionController.getAllTransaction()" value="1.0"/>
+    <VALUE measured="Controllers.TransactionController.getTransactionByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Controllers.TransactionController.supprimerTransactions(int)" value="4.0"/>
+    <VALUE measured="Interfaces.IBanque.infosBanque()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanque.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanque.nombreClients()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.ajouterBanquier(Banquier)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.getBanquier(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.loginBanquier(String, String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierAdresseBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierBanquier(double, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierCINBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierMailBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierNomBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierPasswordBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierPrenomBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierUsernameBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.supprimerBanquier(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.ajouterClient(Client)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.getAllClient()" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.getClient(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.loginClient(String, String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierAdresseClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierCINClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierClient(double, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierMailClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierNomClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierPasswordClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierPrenomClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierUsernameClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.preter(double)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.rembourser(double)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.supprimerClient(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.loginDirecteur(String, String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierAdresseDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierCINDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierMailDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierNomDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierPasswordDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierPrenomDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierUsernameDirecteur(String)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.afficherToutBanquier()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.afficherToutClient()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.infosBanque()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.nombreClients()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.transfert(double, CompteBancaire, CompteBancaire)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.ajouterBanquier(Banquier)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.getBanquier(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.loginBanquier(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierAdresseBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierCINBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierDateNaisBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierMailBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierNomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierPasswordBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierPrenomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierSalaireBanquier(double, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierTelBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierUsernameBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.supprimerBanquier(int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.ajouterClient(Client)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.getAllClient()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Client.getClient(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Client.loginClient(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierAdresseClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierCINClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierDateNaisClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierMailClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierNomClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierPasswordClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierPrenomClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierTelClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierUsernameClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.preter(double, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.rembourser(double, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Client.supprimerClient(int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.creerCompteCourant(CompteCourant)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.depotArgent(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getAllCompteCourant()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getCompteCourant(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getCompteCourantByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.modifierSolde(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.retrait(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.supprimerCompteCourant(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.creerCompteEpargne(CompteEpargne)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.depotArgent(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getAllCompteEpargne()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getCompteEpargne(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getCompteEpargneByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.modifierSolde(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.retrait(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.supprimerCompteEpargne(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.getDirecteur(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.loginDirecteur(String, String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierAdresseDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierCINDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierDateNaisDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierMailDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierNomDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierPasswordDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierPrenomDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierTelDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierUsernameDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction.getAllTransaction()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction.getTransactionByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.afficherToutBanquier()" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.afficherToutClient()" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.infosBanque()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.nombreClients()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.transfert(double, CompteBancaire, CompteBancaire)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.ajouterBanquier(Banquier)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.getBanquier(int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.loginBanquier(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierAdresseBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierCINBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierDateNaisBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierMailBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierNomBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierPasswordBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierPrenomBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierSalaireBanquier(double, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierUsernameBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifiertelBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.supprimerBanquier(int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.ajouterClient(Client)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Client.getAllClient()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.getClient(int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.loginClient(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierAdresseClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierCINClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierDateNaisClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierMailClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierNomClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierPasswordClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierPrenomClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierUsernameClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifiertelClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.preter(double, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.rembourser(double, int)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Client.supprimerClient(int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.creerCompteCourant(CompteCourant)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.depotArgent(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getAllCompteCourant()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getCompteCourant(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getCompteCourantByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.modifierSolde(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.retrait(double, int)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.supprimerCompteCourant(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.creerCompteEpargne(CompteEpargne)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.depotArgent(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getAllCompteEpargne()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getCompteEpargne(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getCompteEpargneByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.modifierSolde(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.retrait(double, int)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.supprimerCompteEpargne(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.getDirecteur(int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.loginDirecteur(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierAdresseDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierCINDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierDateNaisDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierMailDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierNomDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierPasswordDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierPrenomDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierUsernameDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifiertelDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Transaction.getAllTransaction()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Transaction.getTransactionByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.entities.Banque.Banque()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.getAdresse()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.getNom()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.infos()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.setAdresse(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.setNom(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.Banquier(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.Banquier(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.getPassword()" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.getUsername()" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.setPassword(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.setUsername(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.Client(String, String, String, String, String, String, String, ...)" value="3.0"/>
+    <VALUE measured="Models.entities.Client.Client(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getId()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getPassword()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getSoldePret()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getUsername()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setId(int)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setPassword(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setSoldePret(double)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setUsername(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.CompteBancaire(int, TypeCompte)" value="5.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.CompteBancaire(int, int, TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getDatecreation()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getIdClient()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getIdCompte()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getSolde()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getType()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setIdClient(int)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setSolde(double)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setType(TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.CompteCourant(int, String, TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.CompteCourant(int, int, double, String, TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.getDatecreation()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.getSolde()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.setDateCreation(String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.setSolde(double)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.CompteEpargne(int, int, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.CompteEpargne(int, int, int, double, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getDatecreation()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getDuree()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getSolde()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setDateCreation(String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setDuree(int)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setSolde(double)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierBanquier(int)" value="2.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierClient(int)" value="2.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierCompte(int)" value="3.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierTransaction(int)" value="2.0"/>
+    <VALUE measured="Models.entities.Directeur.Directeur(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.Directeur(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.getPassword()" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.getUsername()" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.setPassword(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.setUsername(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.Employe(String, String, String, String, String, String, String, ...)" value="3.0"/>
+    <VALUE measured="Models.entities.Employe.Employe(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.getId()" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.getSalaire()" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.setSalaire(double)" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.GestionBase.close()" value="3.0"/>
+    <VALUE measured="Models.entities.GestionBase.connect()" value="2.0"/>
+    <VALUE measured="Models.entities.GestionBase.loadDataFromDataBase()" value="13.0"/>
+    <VALUE measured="Models.entities.GestionBase.updateDataBase()" value="19.0"/>
+    <VALUE measured="Models.entities.Personne.Personne(String, String, String, String, String, String, String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getAdresse()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getCIN()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getDateNais()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getMail()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getNom()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getPrenom()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getTel()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setAdresse(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setCIN(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setDateNais(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setMail(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setNom(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setPrenom(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setTel(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.Transaction(String, double, String, int)" value="3.0"/>
+    <VALUE measured="Models.entities.Transaction.Transaction(int, String, double, String, int)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.afficherTransaction()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getDate()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getIdCompte()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getIdTransaction()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getMontant()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getType()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.setDate(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.setMontant(double)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.setType(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.toString()" value="1.0"/>
+    <VALUE measured="TestConnection.main(String[])" value="2.0"/>
+    <VALUE measured="Views.AccueilPage.AccueilPage()" value="11.0"/>
+    <VALUE measured="Views.AccueilPage.createButton(String)" value="3.0"/>
+    <VALUE measured="Views.TableBanquiersView.TableBanquiersView(List&lt;Banquier>)" value="2.0"/>
+    <VALUE measured="Views.TableClientsView.TableClientsView(List&lt;Client>)" value="2.0"/>
+    <VALUE measured="Views.TableComptesView.TableComptesView(List&lt;CompteBancaire>)" value="2.0"/>
+    <VALUE measured="Views.TableTransactionView.TableTransactionView(List&lt;Transaction>)" value="3.0"/>
+    <VALUE measured="Views.ViewBanquier.ViewBanquier()" value="9.0"/>
+    <VALUE measured="Views.ViewBanquier.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewClient.ViewClient()" value="16.0"/>
+    <VALUE measured="Views.ViewClient.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewCompte.ViewCompte()" value="20.0"/>
+    <VALUE measured="Views.ViewCompte.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewDirecteur.ViewDirecteur()" value="4.0"/>
+    <VALUE measured="Views.ViewDirecteur.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewGererBanquier.ViewGererBanquier()" value="10.0"/>
+    <VALUE measured="Views.ViewGererBanquier.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewGererClient.ViewGererClient()" value="28.0"/>
+    <VALUE measured="Views.ViewGererClient.createButton(String)" value="1.0"/>
+    <VALUE measured="org.example.Main.main(String[])" value="1.0"/>
+    <VALUE measured="utils.Session.clear()" value="1.0"/>
+    <VALUE measured="utils.Session.getUserId()" value="1.0"/>
+    <VALUE measured="utils.Session.isLoggedIn()" value="1.0"/>
+    <VALUE measured="utils.Session.setUserId(int)" value="1.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.methodMetrics.CyclomaticComplexityMetric">
+    <VALUE measured="Controllers.BanqueController.afficherToutBanquier()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.afficherToutClient()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.existanceCompte(int)" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.getAllComptesBancaires()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.getCompteBancaire(int)" value="3.0"/>
+    <VALUE measured="Controllers.BanqueController.getCompteBancaireByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Controllers.BanqueController.infosBanque()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.infossBanque()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.nombreClients()" value="1.0"/>
+    <VALUE measured="Controllers.BanqueController.supprimerClient(int)" value="5.0"/>
+    <VALUE measured="Controllers.BanqueController.transfert(double, CompteBancaire, CompteBancaire)" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.ajouterBanquier(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.getBanquier(int)" value="2.0"/>
+    <VALUE measured="Controllers.BanquierController.loginBanquier(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierAdresseBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierBanquier(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierCINBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierDateNaisBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierMailBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierNomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierPasswordBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierPrenomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierSalaireBanquier(double, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierTelBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.modifierUsernameBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController.supprimerBanquier(int)" value="2.0"/>
+    <VALUE measured="Controllers.ClientController.ajouterClient(Client)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.ajouterClient(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.getAllClient()" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.getClient(int)" value="2.0"/>
+    <VALUE measured="Controllers.ClientController.loginClient(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.ClientController.modifierAdresseClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierCINClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierClient(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.ClientController.modifierDateNaisClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierMailClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierNomClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierPasswordClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierPrenomClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierTelClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.modifierUsernameClient(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.preter(double, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.rembourser(double, int)" value="3.0"/>
+    <VALUE measured="Controllers.ClientController.supprimerClient(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteCourantController.creerCompteCourant(int, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.depotArgent(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getAllCompteCourant()" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getCompteCourant(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteCourantController.getCompteCourantByIdCompte(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteCourantController.modifierSolde(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.retrait(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteCourantController.supprimerCompteCourant(int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.creerCompteEpargne(int, int, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.depotArgent(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getAllCompteEpargne()" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getCompteEpargne(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.getCompteEpargneByIdCompte(int)" value="2.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.modifierSolde(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.retrait(double, int)" value="1.0"/>
+    <VALUE measured="Controllers.CompteEpargneController.supprimerCompteEpargne(int)" value="1.0"/>
+    <VALUE measured="Controllers.DirecteurController.getDirecteur(int)" value="2.0"/>
+    <VALUE measured="Controllers.DirecteurController.loginDirecteur(String, String, int)" value="4.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierAdresseDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierCINDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierDateNaisDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierDirecteur(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierMailDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierNomDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierPasswordDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierPrenomDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierTelDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.DirecteurController.modifierUsernameDirecteur(String, int)" value="3.0"/>
+    <VALUE measured="Controllers.TransactionController.ajouterTransaction(Transaction)" value="2.0"/>
+    <VALUE measured="Controllers.TransactionController.getAllTransaction()" value="1.0"/>
+    <VALUE measured="Controllers.TransactionController.getTransactionByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Controllers.TransactionController.supprimerTransactions(int)" value="4.0"/>
+    <VALUE measured="Interfaces.IBanque.infosBanque()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanque.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanque.nombreClients()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.ajouterBanquier(Banquier)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.getBanquier(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.loginBanquier(String, String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierAdresseBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierBanquier(double, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierCINBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierMailBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierNomBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierPasswordBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierPrenomBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.modifierUsernameBanquier(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier.supprimerBanquier(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.ajouterClient(Client)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.getAllClient()" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.getClient(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.loginClient(String, String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierAdresseClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierCINClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierClient(double, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierMailClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierNomClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierPasswordClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierPrenomClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.modifierUsernameClient(String, int)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.preter(double)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.rembourser(double)" value="1.0"/>
+    <VALUE measured="Interfaces.IClient.supprimerClient(int)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.loginDirecteur(String, String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierAdresseDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierCINDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierMailDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierNomDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierPasswordDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierPrenomDirecteur(String)" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur.modifierUsernameDirecteur(String)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.afficherToutBanquier()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.afficherToutClient()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.infosBanque()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.nombreClients()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque.transfert(double, CompteBancaire, CompteBancaire)" value="4.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.ajouterBanquier(Banquier)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.getBanquier(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.loginBanquier(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierAdresseBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierCINBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierDateNaisBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierMailBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierNomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierPasswordBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierPrenomBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierSalaireBanquier(double, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierTelBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.modifierUsernameBanquier(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier.supprimerBanquier(int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.ajouterClient(Client)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.getAllClient()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Client.getClient(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Client.loginClient(String, String, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierAdresseClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierCINClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierDateNaisClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierMailClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierNomClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierPasswordClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierPrenomClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierTelClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.modifierUsernameClient(String, int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_Client.preter(double, int)" value="4.0"/>
+    <VALUE measured="Models.blls.BLL_Client.rembourser(double, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Client.supprimerClient(int)" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.creerCompteCourant(CompteCourant)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.depotArgent(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getAllCompteCourant()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getCompteCourant(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.getCompteCourantByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.modifierSolde(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.retrait(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant.supprimerCompteCourant(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.creerCompteEpargne(CompteEpargne)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.depotArgent(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getAllCompteEpargne()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getCompteEpargne(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.getCompteEpargneByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.modifierSolde(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.retrait(double, int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne.supprimerCompteEpargne(int)" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.getDirecteur(int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.loginDirecteur(String, String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierAdresseDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierCINDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierDateNaisDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierMailDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierNomDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierPasswordDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierPrenomDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierTelDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur.modifierUsernameDirecteur(String, int)" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction.getAllTransaction()" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction.getTransactionByIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.afficherToutBanquier()" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.afficherToutClient()" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.infosBanque()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.nombreBanquiers()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.nombreClients()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque.transfert(double, CompteBancaire, CompteBancaire)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.ajouterBanquier(Banquier)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.getAllBanquier()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.getBanquier(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.loginBanquier(String, String, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierAdresseBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierCINBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierDateNaisBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierMailBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierNomBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierPasswordBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierPrenomBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierSalaireBanquier(double, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifierUsernameBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.modifiertelBanquier(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier.supprimerBanquier(int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.ajouterClient(Client)" value="5.0"/>
+    <VALUE measured="Models.dals.DAL_Client.getAllClient()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Client.getClient(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Client.loginClient(String, String, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierAdresseClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierCINClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierDateNaisClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierMailClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierNomClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierPasswordClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierPrenomClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifierUsernameClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.modifiertelClient(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Client.preter(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Client.rembourser(double, int)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Client.supprimerClient(int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.creerCompteCourant(CompteCourant)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.depotArgent(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getAllCompteCourant()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getCompteCourant(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.getCompteCourantByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.modifierSolde(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.retrait(double, int)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant.supprimerCompteCourant(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.creerCompteEpargne(CompteEpargne)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.depotArgent(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getAllCompteEpargne()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getCompteEpargne(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.getCompteEpargneByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.modifierSolde(double, int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.retrait(double, int)" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne.supprimerCompteEpargne(int)" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.getDirecteur(int)" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.loginDirecteur(String, String, int)" value="5.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierAdresseDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierCINDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierDateNaisDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierMailDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierNomDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierPasswordDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierPrenomDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifierUsernameDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur.modifiertelDirecteur(String, int)" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Transaction.getAllTransaction()" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Transaction.getTransactionByIdCompte(int)" value="3.0"/>
+    <VALUE measured="Models.entities.Banque.Banque()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.getAdresse()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.getNom()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.infos()" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.setAdresse(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banque.setNom(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.Banquier(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.Banquier(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.getPassword()" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.getUsername()" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.setPassword(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.setUsername(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.Client(String, String, String, String, String, String, String, ...)" value="3.0"/>
+    <VALUE measured="Models.entities.Client.Client(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getId()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getPassword()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getSoldePret()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.getUsername()" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setId(int)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setPassword(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setSoldePret(double)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.setUsername(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Client.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.CompteBancaire(int, TypeCompte)" value="5.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.CompteBancaire(int, int, TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getDatecreation()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getIdClient()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getIdCompte()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getSolde()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.getType()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setIdClient(int)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setIdCompte(int)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setSolde(double)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.setType(TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteBancaire.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.CompteCourant(int, String, TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.CompteCourant(int, int, double, String, TypeCompte)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.getDatecreation()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.getSolde()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.setDateCreation(String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.setSolde(double)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteCourant.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.CompteEpargne(int, int, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.CompteEpargne(int, int, int, double, TypeCompte, String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getDatecreation()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getDuree()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.getSolde()" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setDateCreation(String)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setDuree(int)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.setSolde(double)" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierBanquier(int)" value="3.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierClient(int)" value="3.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierCompte(int)" value="5.0"/>
+    <VALUE measured="Models.entities.DataBase.verifierTransaction(int)" value="3.0"/>
+    <VALUE measured="Models.entities.Directeur.Directeur(String, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.Directeur(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.getPassword()" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.getUsername()" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.setPassword(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.setUsername(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Directeur.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.Employe(String, String, String, String, String, String, String, ...)" value="3.0"/>
+    <VALUE measured="Models.entities.Employe.Employe(int, String, String, String, String, String, String, ...)" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.getId()" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.getSalaire()" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.setSalaire(double)" value="1.0"/>
+    <VALUE measured="Models.entities.Employe.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.GestionBase.close()" value="3.0"/>
+    <VALUE measured="Models.entities.GestionBase.connect()" value="2.0"/>
+    <VALUE measured="Models.entities.GestionBase.loadDataFromDataBase()" value="13.0"/>
+    <VALUE measured="Models.entities.GestionBase.updateDataBase()" value="19.0"/>
+    <VALUE measured="Models.entities.Personne.Personne(String, String, String, String, String, String, String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getAdresse()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getCIN()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getDateNais()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getMail()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getNom()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getPrenom()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.getTel()" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setAdresse(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setCIN(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setDateNais(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setMail(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setNom(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setPrenom(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.setTel(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Personne.toString()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.Transaction(String, double, String, int)" value="3.0"/>
+    <VALUE measured="Models.entities.Transaction.Transaction(int, String, double, String, int)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.afficherTransaction()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getDate()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getIdCompte()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getIdTransaction()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getMontant()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.getType()" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.setDate(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.setMontant(double)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.setType(String)" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction.toString()" value="1.0"/>
+    <VALUE measured="TestConnection.main(String[])" value="2.0"/>
+    <VALUE measured="Views.AccueilPage.AccueilPage()" value="11.0"/>
+    <VALUE measured="Views.AccueilPage.createButton(String)" value="3.0"/>
+    <VALUE measured="Views.TableBanquiersView.TableBanquiersView(List&lt;Banquier>)" value="2.0"/>
+    <VALUE measured="Views.TableClientsView.TableClientsView(List&lt;Client>)" value="2.0"/>
+    <VALUE measured="Views.TableComptesView.TableComptesView(List&lt;CompteBancaire>)" value="2.0"/>
+    <VALUE measured="Views.TableTransactionView.TableTransactionView(List&lt;Transaction>)" value="3.0"/>
+    <VALUE measured="Views.ViewBanquier.ViewBanquier()" value="9.0"/>
+    <VALUE measured="Views.ViewBanquier.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewClient.ViewClient()" value="18.0"/>
+    <VALUE measured="Views.ViewClient.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewCompte.ViewCompte()" value="23.0"/>
+    <VALUE measured="Views.ViewCompte.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewDirecteur.ViewDirecteur()" value="4.0"/>
+    <VALUE measured="Views.ViewDirecteur.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewGererBanquier.ViewGererBanquier()" value="10.0"/>
+    <VALUE measured="Views.ViewGererBanquier.createButton(String)" value="1.0"/>
+    <VALUE measured="Views.ViewGererClient.ViewGererClient()" value="28.0"/>
+    <VALUE measured="Views.ViewGererClient.createButton(String)" value="1.0"/>
+    <VALUE measured="org.example.Main.main(String[])" value="1.0"/>
+    <VALUE measured="utils.Session.clear()" value="1.0"/>
+    <VALUE measured="utils.Session.getUserId()" value="1.0"/>
+    <VALUE measured="utils.Session.isLoggedIn()" value="1.0"/>
+    <VALUE measured="utils.Session.setUserId(int)" value="1.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.classMetrics.AverageOperationComplexityMetric">
+    <VALUE measured="Controllers.BanqueController" value="1.5"/>
+    <VALUE measured="Controllers.BanquierController" value="2.5625"/>
+    <VALUE measured="Controllers.ClientController" value="2.5"/>
+    <VALUE measured="Controllers.CompteCourantController" value="1.25"/>
+    <VALUE measured="Controllers.CompteEpargneController" value="1.25"/>
+    <VALUE measured="Controllers.DirecteurController" value="2.8333333333333335"/>
+    <VALUE measured="Controllers.TransactionController" value="1.5"/>
+    <VALUE measured="Interfaces.IBanque" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier" value="1.0"/>
+    <VALUE measured="Interfaces.IClient" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque" value="1.1666666666666667"/>
+    <VALUE measured="Models.blls.BLL_Banquier" value="1.8666666666666667"/>
+    <VALUE measured="Models.blls.BLL_Client" value="1.875"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant" value="1.625"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne" value="1.625"/>
+    <VALUE measured="Models.blls.BLL_Directeur" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque" value="1.6666666666666667"/>
+    <VALUE measured="Models.dals.DAL_Banquier" value="1.3333333333333333"/>
+    <VALUE measured="Models.dals.DAL_Client" value="1.625"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur" value="1.0909090909090908"/>
+    <VALUE measured="Models.dals.DAL_Transaction" value="2.0"/>
+    <VALUE measured="Models.entities.Banque" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier" value="1.0"/>
+    <VALUE measured="Models.entities.Client" value="1.1818181818181819"/>
+    <VALUE measured="Models.entities.CompteBancaire" value="1.3333333333333333"/>
+    <VALUE measured="Models.entities.CompteCourant" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne" value="1.0"/>
+    <VALUE measured="Models.entities.DataBase" value="3.5"/>
+    <VALUE measured="Models.entities.Directeur" value="1.0"/>
+    <VALUE measured="Models.entities.Employe" value="1.3333333333333333"/>
+    <VALUE measured="Models.entities.GestionBase" value="6.25"/>
+    <VALUE measured="Models.entities.Personne" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction" value="1.1666666666666667"/>
+    <VALUE measured="TestConnection" value="1.0"/>
+    <VALUE measured="Views.AccueilPage" value="2.5"/>
+    <VALUE measured="Views.TableBanquiersView" value="2.0"/>
+    <VALUE measured="Views.TableClientsView" value="2.0"/>
+    <VALUE measured="Views.TableComptesView" value="2.0"/>
+    <VALUE measured="Views.TableTransactionView" value="3.0"/>
+    <VALUE measured="Views.ViewBanquier" value="1.5"/>
+    <VALUE measured="Views.ViewClient" value="2.5"/>
+    <VALUE measured="Views.ViewCompte" value="4.0"/>
+    <VALUE measured="Views.ViewDirecteur" value="1.25"/>
+    <VALUE measured="Views.ViewGererBanquier" value="2.0"/>
+    <VALUE measured="Views.ViewGererClient" value="4.285714285714286"/>
+    <VALUE measured="org.example.Main" value="1.0"/>
+    <VALUE measured="utils.Session" value="1.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.classMetrics.MaximumOperationComplexityMetric">
+    <VALUE measured="Controllers.BanqueController" value="3.0"/>
+    <VALUE measured="Controllers.BanquierController" value="4.0"/>
+    <VALUE measured="Controllers.ClientController" value="4.0"/>
+    <VALUE measured="Controllers.CompteCourantController" value="2.0"/>
+    <VALUE measured="Controllers.CompteEpargneController" value="2.0"/>
+    <VALUE measured="Controllers.DirecteurController" value="4.0"/>
+    <VALUE measured="Controllers.TransactionController" value="3.0"/>
+    <VALUE measured="Interfaces.IBanque" value="1.0"/>
+    <VALUE measured="Interfaces.IBanquier" value="1.0"/>
+    <VALUE measured="Interfaces.IClient" value="1.0"/>
+    <VALUE measured="Interfaces.IDirecteur" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Banque" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Client" value="3.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne" value="2.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur" value="1.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction" value="1.0"/>
+    <VALUE measured="Models.dals.DAL_Banque" value="3.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Client" value="5.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne" value="4.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Transaction" value="3.0"/>
+    <VALUE measured="Models.entities.Banque" value="1.0"/>
+    <VALUE measured="Models.entities.Banquier" value="1.0"/>
+    <VALUE measured="Models.entities.Client" value="3.0"/>
+    <VALUE measured="Models.entities.CompteBancaire" value="5.0"/>
+    <VALUE measured="Models.entities.CompteCourant" value="1.0"/>
+    <VALUE measured="Models.entities.CompteEpargne" value="1.0"/>
+    <VALUE measured="Models.entities.DataBase" value="5.0"/>
+    <VALUE measured="Models.entities.Directeur" value="1.0"/>
+    <VALUE measured="Models.entities.Employe" value="3.0"/>
+    <VALUE measured="Models.entities.GestionBase" value="13.0"/>
+    <VALUE measured="Models.entities.Personne" value="1.0"/>
+    <VALUE measured="Models.entities.Transaction" value="3.0"/>
+    <VALUE measured="TestConnection" value="1.0"/>
+    <VALUE measured="Views.AccueilPage" value="3.0"/>
+    <VALUE measured="Views.TableBanquiersView" value="2.0"/>
+    <VALUE measured="Views.TableClientsView" value="2.0"/>
+    <VALUE measured="Views.TableComptesView" value="2.0"/>
+    <VALUE measured="Views.TableTransactionView" value="3.0"/>
+    <VALUE measured="Views.ViewBanquier" value="3.0"/>
+    <VALUE measured="Views.ViewClient" value="5.0"/>
+    <VALUE measured="Views.ViewCompte" value="9.0"/>
+    <VALUE measured="Views.ViewDirecteur" value="3.0"/>
+    <VALUE measured="Views.ViewGererBanquier" value="3.0"/>
+    <VALUE measured="Views.ViewGererClient" value="11.0"/>
+    <VALUE measured="org.example.Main" value="1.0"/>
+    <VALUE measured="utils.Session" value="1.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.classMetrics.WeightedMethodComplexityMetric">
+    <VALUE measured="Controllers.BanqueController" value="18.0"/>
+    <VALUE measured="Controllers.BanquierController" value="41.0"/>
+    <VALUE measured="Controllers.ClientController" value="45.0"/>
+    <VALUE measured="Controllers.CompteCourantController" value="10.0"/>
+    <VALUE measured="Controllers.CompteEpargneController" value="10.0"/>
+    <VALUE measured="Controllers.DirecteurController" value="34.0"/>
+    <VALUE measured="Controllers.TransactionController" value="6.0"/>
+    <VALUE measured="Interfaces.IBanque" value="3.0"/>
+    <VALUE measured="Interfaces.IBanquier" value="13.0"/>
+    <VALUE measured="Interfaces.IClient" value="15.0"/>
+    <VALUE measured="Interfaces.IDirecteur" value="8.0"/>
+    <VALUE measured="Models.blls.BLL_Banque" value="7.0"/>
+    <VALUE measured="Models.blls.BLL_Banquier" value="28.0"/>
+    <VALUE measured="Models.blls.BLL_Client" value="30.0"/>
+    <VALUE measured="Models.blls.BLL_CompteCourant" value="13.0"/>
+    <VALUE measured="Models.blls.BLL_CompteEpargne" value="13.0"/>
+    <VALUE measured="Models.blls.BLL_Directeur" value="11.0"/>
+    <VALUE measured="Models.blls.BLL_Transaction" value="2.0"/>
+    <VALUE measured="Models.dals.DAL_Banque" value="10.0"/>
+    <VALUE measured="Models.dals.DAL_Banquier" value="20.0"/>
+    <VALUE measured="Models.dals.DAL_Client" value="26.0"/>
+    <VALUE measured="Models.dals.DAL_CompteCourant" value="24.0"/>
+    <VALUE measured="Models.dals.DAL_CompteEpargne" value="24.0"/>
+    <VALUE measured="Models.dals.DAL_Directeur" value="12.0"/>
+    <VALUE measured="Models.dals.DAL_Transaction" value="4.0"/>
+    <VALUE measured="Models.entities.Banque" value="6.0"/>
+    <VALUE measured="Models.entities.Banquier" value="7.0"/>
+    <VALUE measured="Models.entities.Client" value="13.0"/>
+    <VALUE measured="Models.entities.CompteBancaire" value="16.0"/>
+    <VALUE measured="Models.entities.CompteCourant" value="7.0"/>
+    <VALUE measured="Models.entities.CompteEpargne" value="9.0"/>
+    <VALUE measured="Models.entities.DataBase" value="14.0"/>
+    <VALUE measured="Models.entities.Directeur" value="7.0"/>
+    <VALUE measured="Models.entities.Employe" value="8.0"/>
+    <VALUE measured="Models.entities.GestionBase" value="25.0"/>
+    <VALUE measured="Models.entities.Personne" value="16.0"/>
+    <VALUE measured="Models.entities.Transaction" value="14.0"/>
+    <VALUE measured="Models.entities.TypeCompte" value="0.0"/>
+    <VALUE measured="Models.entities.TypeTransaction" value="0.0"/>
+    <VALUE measured="TestConnection" value="1.0"/>
+    <VALUE measured="Views.AccueilPage" value="15.0"/>
+    <VALUE measured="Views.TableBanquiersView" value="2.0"/>
+    <VALUE measured="Views.TableClientsView" value="2.0"/>
+    <VALUE measured="Views.TableComptesView" value="2.0"/>
+    <VALUE measured="Views.TableTransactionView" value="3.0"/>
+    <VALUE measured="Views.ViewBanquier" value="12.0"/>
+    <VALUE measured="Views.ViewClient" value="20.0"/>
+    <VALUE measured="Views.ViewCompte" value="20.0"/>
+    <VALUE measured="Views.ViewDirecteur" value="10.0"/>
+    <VALUE measured="Views.ViewGererBanquier" value="12.0"/>
+    <VALUE measured="Views.ViewGererClient" value="30.0"/>
+    <VALUE measured="org.example.Main" value="1.0"/>
+    <VALUE measured="utils.Session" value="4.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.packageMetrics.AverageCyclomaticComplexityPackageMetric">
+    <VALUE measured="" value="2.0"/>
+    <VALUE measured="Controllers" value="2.1538461538461537"/>
+    <VALUE measured="Interfaces" value="1.0"/>
+    <VALUE measured="Models.blls" value="1.9393939393939394"/>
+    <VALUE measured="Models.dals" value="2.409090909090909"/>
+    <VALUE measured="Models.entities" value="1.5247524752475248"/>
+    <VALUE measured="Views" value="6.722222222222222"/>
+    <VALUE measured="org.example" value="1.0"/>
+    <VALUE measured="utils" value="1.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.packageMetrics.TotalCyclomaticComplexityPackageMetric">
+    <VALUE measured="" value="2.0"/>
+    <VALUE measured="Controllers" value="168.0"/>
+    <VALUE measured="Interfaces" value="39.0"/>
+    <VALUE measured="Models.blls" value="128.0"/>
+    <VALUE measured="Models.dals" value="159.0"/>
+    <VALUE measured="Models.entities" value="154.0"/>
+    <VALUE measured="Views" value="121.0"/>
+    <VALUE measured="org.example" value="1.0"/>
+    <VALUE measured="utils" value="4.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.AverageCyclomaticComplexityModuleMetric">
+    <VALUE measured="GestionBanque" value="2.0748663101604277"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.TotalCyclomaticComplexityModuleMetric">
+    <VALUE measured="GestionBanque" value="776.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.AverageCyclomaticComplexityProjectMetric">
+    <VALUE measured="project" value="2.0748663101604277"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.TotalCyclomaticComplexityProjectMetric">
+    <VALUE measured="project" value="776.0"/>
+  </METRIC>
+</SNAPSHOT>
